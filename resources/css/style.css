@@ -26,6 +26,7 @@ html {
 
 .image-container img {
   display: block;
+  max-width: 100%
 }
 
 @media only screen and (max-width: 760px) {
@@ -117,9 +118,16 @@ header .mobile {
   justify-content: flex-start;
   align-items: flex-start;
   height: 43.5rem;
+  background-image: url(../images/banner-landingpage.jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
 }
 
 #sign-up-cta {
+  position: relative;
+  top: 170px;
+  left: 100px;
   padding: 0 5rem 2.5rem 5rem;
   border: solid 1px #979797;
   border-radius: 4px;
@@ -227,6 +235,10 @@ header .mobile {
   width: 90%;
   height: 65%;
   margin: 0 auto;
+}
+
+.feature .content{
+  padding: 2.5rem 0;
 }
 
 .feature h2 {
